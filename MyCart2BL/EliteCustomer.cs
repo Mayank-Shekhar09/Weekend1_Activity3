@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyCart2BL
 {
-    class EliteCustomer : Customer
+    public class EliteCustomer : Customer
     {
         private int ownedCoupons;
         public int OwnedCoupons { 
