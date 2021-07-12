@@ -24,7 +24,7 @@ namespace MyCart2BL
             this.OwnedCoupons = ownedCoupons;
             if (OwnedCoupons > 0)
             {
-                OwnedCoupons = 100;
+                Console.WriteLine("Valid Owned Coupon");
             }
             else
             {
