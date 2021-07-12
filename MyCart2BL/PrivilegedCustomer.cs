@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyCart2BL
 {
-    class PrivilegedCustomer : Customer
+    public class PrivilegedCustomer : Customer
     {
         private CustomerCardType cardType;
         public CustomerCardType CardType { 
